@@ -4,7 +4,7 @@ Pipeline Execution
 ==================
 Once all the configuration dependencies are met and paramaters are set in the ``config.yaml``, sc-VirusScan can be initiated as described below:
 
-1. Activate the conda environment: ``conda activate sc-virus-scan``
+1. Activate the conda environment: ``conda activate sc-VirusScan``
 
 2. Once conda environment is activated, trigger the pipeline using following command:
 
@@ -50,4 +50,4 @@ On successfully completion of sc-VirusScan, following output file are generated 
    │       └── Clustermap_Specieswise_log10.png
    └── logs
    
-The users can use the ``count_matrix.tsv`` file from the results directory along with the Cellranger barcodes in the sample wise directories under cellranger directory for further downstream single cell analysis using Seurat and ScanPy.
+Users can use the ``count_matrix.tsv`` file from the results directory along with the Cellranger barcodes in the sample wise cellranger directory for further downstream single cell analysis using Seurat and ScanPy.
